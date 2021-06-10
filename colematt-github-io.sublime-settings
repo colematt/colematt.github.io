@@ -1,0 +1,22 @@
+# colematt.github.io.sublime-settings
+{
+    "folders":
+    [
+        {
+            "follow_symlinks": true,
+            "path": "/home/matthew/git/colematt/colematt.github.io"
+        }
+    ],
+
+    "settings":
+    {
+        "Jekyll":
+        {
+            "jekyll_auto_find_paths": false,
+            "jekyll_posts_path": "/home/matthew/git/colematt/colematt.github.io/_posts",
+            "jekyll_drafts_path": "/home/matthew/git/colematt/colematt.github.io/_drafts",
+            "jekyll_uploads_path": "/home/matthew/git/colematt/colematt.github.io/uploads",
+            "jekyll_templates_path": "/home/matthew/git/colematt/colematt.github.io/_templates",
+        }
+    }
+}
