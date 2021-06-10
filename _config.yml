@@ -31,9 +31,9 @@ plugins:
 
 # Add the following pages to the header
 header_pages:
-  - about.md
-  - publications.md
-  - teaching.md
+  - about.markdown
+  - publications.markdown
+  - teaching.markdown
 
 # Show post excerpts on the homepage
 show_excerpts: true
