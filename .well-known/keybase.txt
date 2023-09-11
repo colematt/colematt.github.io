@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/colematthew
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://colematt.github.io
+  * I am colematthew (https://keybase.io/colematthew) on keybase.
+  * I have a public key ASArTG7xdS6WqkVEnPIuqXqZ_8Ur79INXvBpEfq4lykRPQo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "01202b4c6ef1752e96aa45449cf22ea97a99ffc52befd20d5ef06911fab89729113d0a",
+      "host": "keybase.io",
+      "kid": "01202b4c6ef1752e96aa45449cf22ea97a99ffc52befd20d5ef06911fab89729113d0a",
+      "uid": "61e5d5833f320ad002c63e8ec8f9e919",
+      "username": "colematthew"
+    },
+    "merkle_root": {
+      "ctime": 1668444462,
+      "hash": "2cfcdcbfbb16f230644b98955741172b22898b64f7c37f2cdb433684f2d25535871be6acb7969073ef1aab557caa3629993db7b3c6e19e414009a0b23657783a",
+      "hash_meta": "ab4b67eae6d4ad438a8d8c1bc1844a2d3572c56c228b7095a4826d4ebe003cbf",
+      "seqno": 23549211
+    },
+    "service": {
+      "entropy": "wcgGBiiOPclE1x0uedwMLDAZ",
+      "hostname": "colematt.github.io",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "6.0.2"
+  },
+  "ctime": 1668444492,
+  "expire_in": 504576000,
+  "prev": "c062b31fb5716260082aadd125fd52ad0c4fe824374f168cc15161af32e0391e",
+  "seqno": 8,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgK0xu8XUulqpFRJzyLql6mf/FK+/SDV7waRH6uJcpET0Kp3BheWxvYWTESpcCCMQgwGKzH7VxYmAIKq3RJf1SrQxP6CQ3TxaMwVFhrzLgOR7EIEtzZO0mynpWtf14XpPklw8zTfyqhQn3C11UsPQlbJHzAgHCo3NpZ8RAYkV9OETqgAcU62UJJaNqdU6PAz7XVGFsRgDEJqp8d9AinQOK39p4T9I6hbeZMs9Dec+mj/yyvGyE2QMNIzWRAqhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIGE9Q2ccVgyhipkrxXK1fOYw0DZ3B+zBJYfi35UPH5Wyo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/colematthew
+
+==================================================================
