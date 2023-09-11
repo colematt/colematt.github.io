@@ -16,7 +16,7 @@
             {%- endif -%}
             </li>
             {%- if site.author.email -%}
-            <li><a class="u-email" href="mailto:{{ site.author.email }}">{{ site.author.email }}</a></li>
+            <li><SCRIPT LANGUAGE="JavaScript">user = 'mcole8';site = 'binghamton.edu';document.write('<a href=\"mailto:' + user + '@' + site + '\">');document.write(user + '@' + site + '</a>');</SCRIPT></li>
             {%- endif -%}
         </ul>
       </div>
