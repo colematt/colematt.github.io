@@ -1,0 +1,52 @@
+==================================================================
+https://keybase.io/colematthew
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://colematt.github.io
+  * I am colematthew (https://keybase.io/colematthew) on keybase.
+  * I have a public key ASC73OEv8HP5uBEiwfMTQuk5helkwB-Gg7sS2QuCEMu7kwo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "01202b4c6ef1752e96aa45449cf22ea97a99ffc52befd20d5ef06911fab89729113d0a",
+      "host": "keybase.io",
+      "kid": "0120bbdce12ff073f9b81122c1f31342e93985e964c01f8683bb12d90b8210cbbb930a",
+      "uid": "61e5d5833f320ad002c63e8ec8f9e919",
+      "username": "colematthew"
+    },
+    "merkle_root": {
+      "ctime": 1694626846,
+      "hash": "5837358ec2956eabf21884dc7ec251f1917fc3c5d3dc80099589ee9f771a039d1dddef4eacdf6f941e54793e7845d5453405ca5d4bcb955c93be5adcc011696e",
+      "hash_meta": "6137a9ba88f75a35d945822d8e0cb9cac37cc83465423e2303c4ce227b4a73ec",
+      "seqno": 24918470
+    },
+    "service": {
+      "entropy": "nQPVXfBuwdn2LZ/62QuEMhDT",
+      "hostname": "colematt.github.io",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "6.2.2"
+  },
+  "ctime": 1694626880,
+  "expire_in": 504576000,
+  "prev": "1134046f73cdd626a19ca9d26853bcb7e34a8e246abb8462910906404f1d25ad",
+  "seqno": 17,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgu9zhL/Bz+bgRIsHzE0LpOYXpZMAfhoO7EtkLghDLu5MKp3BheWxvYWTESpcCEcQgETQEb3PN1iahnKnSaFO8t+NKjiRqu4RikQkGQE8dJa3EIHstSQZPN4DoTIaiI2n748bABfvyzdamesuX82GrOgahAgHCo3NpZ8RAz2OUz4W8AnbZMb+AGgPvpdr4I0MtoWZJ6it2klJfH68a2Dttf6DHFMS95cr0LnX1VcfGG+P6XlbAcoT7t5e0CahzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIMbA59UQEWLyvWme0DEd8JiwYqoO63es7eSNL2rE8f7Zo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
