@@ -10,3 +10,5 @@ minima:
 author:
   name: Matthew Cole
   email: "mcole8@binghamton.edu"
+
+include: [".well-known"]
