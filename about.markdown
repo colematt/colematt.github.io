@@ -24,9 +24,4 @@ Hardware-software cohesive design for resilient system security through:
 
 # Personal
 
-When not doing my research, I'm interested in mountaineering, backcountry skiing and bicycle touring. 
-
-# Documents
-
-- [Resume](/_assets/docs/cv/resume.pdf)
-- [CV](/_assets/docs/cv/cv.pdf)
+When not doing my research, I'm interested in mountaineering, backcountry skiing and bicycle touring.

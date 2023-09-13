@@ -1,0 +1,204 @@
+\documentclass[line]{res}
+
+\usepackage{hyperref}
+
+\oddsidemargin -.5in
+\evensidemargin -.5in
+\textwidth=6.0in
+\itemsep=0in
+\parsep=0in
+
+\include{lists}
+
+\author{Matthew Cole}
+\title{Resume}
+\date{\today}
+
+\begin{document}
+
+\name{Matthew Cole}
+\address{
+	\begin{ncolumn}{2} {\bf Email:} \href{mailto:mcole8@binghamton.edu}{mcole8@binghamton.edu} & {\bf Phone:}\href{tel:12067908791}{+1 (206) 790-8791}
+	\end{ncolumn}
+}
+\address{
+	{\bf Web:} \url{https://colematt.github.io}
+}
+
+\begin{resume}
+
+\begin{format}
+	\employer{l} \location{r}\\
+	\title{l} \dates{r}\\
+	\body
+\end{format}
+
+%\vspace*{-.5cm}
+\section{Education}
+
+\employer{{\bf State University of New York at Binghamton}}
+\location{Binghamton, NY}
+\title{Ph.D. Candidate, Computer Science}
+\dates{Expected 2023}
+\begin{position}
+\vspace*{-.2cm}
+\begin{list2}
+	\item Dissertation Topic: ``Enforcing Integrity Models on Tagged Architectures''
+	\item Advisor: Aravind Prakash
+\end{list2}
+\end{position}
+
+\vspace*{-0.15cm}
+
+\employer{{\bf State University of New York at Binghamton}}
+\location{Binghamton, NY}
+\title{M.S., Computer Science}
+\dates{May 2018}
+\begin{position}
+\vspace*{-.2cm}
+\begin{list2}
+	\item GPA: 3.97/4.00
+	\item Thesis Topic: ``Integrity Models''
+\end{list2}
+\end{position}
+
+\vspace*{-0.15cm}
+
+\employer{{\bf United States Naval Academy}}
+\location{Annapolis, MD}
+\title{B.S., Computer Science}
+\dates{May 2005}
+\begin{position}
+\vspace*{-.2cm}
+\begin{list2}
+	\item GPA: 3.78/4.00 (major), 3.60/4.00 (overall)
+	\item Graduated {\it With Merit}, Upsilon Pi Epsilon
+	% \item Captained winning team of National Security Agency's 5th Annual Cyber Defense Exercise
+	% \item Varsity letter in Offshore Sailing
+\end{list2}
+\end{position}
+
+\section{Computing Skills}
+\begin{list2}
+\item Languages: C, C++, Python, x86/RISC-V/ARM assembly, LLVM IR
+\item Operating Systems: Unix/Linux, MacOS, Windows
+\item Tools: SPEC CPU 2006/2017, Hayai, Google Benchmark, CUnit, Google Test, Boost.Test, Python unittest, LLVM compiler toolchain, Git, Travis-CI, CMake, GNU Build System, Doxygen, Sphinx
+\end{list2}
+
+\section{Citizenship and Security Clearances}
+U.S. Citizen. Held {\sc Secret} (2001-2006), {\sc Top Secret/SCI} (2006-2014) clearances
+
+\section{Work Experience}
+
+\employer{{\bf Research Foundation for the State University of New York}}
+\title{{\bf Research Assistant}}
+\dates{{\bf January 2018 \-- Present}}
+\location{{\bf Binghamton, New York}}
+\begin{position}
+\vspace*{-.2cm}
+\begin{list2}
+	\item Engineered an implementation of the RISC-V architecture employing inline code and data tagging for integrity models, serving as the foundation for an attack-resistant voting machine
+	\item Performed a novel steganographic analysis of the ARM A64 and T32 architectures by parsing a machine-readable architecture specification and fuzzing executables
+	\item Repurposed Intel Memory Protection Extensions for generalized storage, and implemented analyses for the LLVM compiler toolchain to replace memory accesses with these inlined register operations
+\end{list2}
+\end{position}
+
+\employer{{\bf Binghamton University}}
+\location{{\bf Binghamton, New York}}
+\title{{\bf Teaching Assistant}}
+\dates{{\bf January 2017 \-- Present}}
+\begin{position}
+\vspace*{-.2cm}
+\begin{list2}
+	\item Assisted graduate and undergraduate level courses, designing and proctoring weekly labs, and grading all coursework. Delivered lectures during instructor-of-record's absence
+	\item Piloted a Github Classroom/Travis-CI course delivery system to provide instant feedback and version control software experience to students while expediting grading
+\end{list2}
+\end{position}
+
+\title{{\bf Graduate Assistant}}
+\dates{{\bf August 2015 \-- December 2016}}
+\begin{position}
+\vspace*{-.2cm}
+\begin{list2}
+	\item Developed a technique for extracting design patterns from C++ source code and encoding as a finite state machine with an XML machine-readable representation
+	\item Researched scientific utilization of performance benchmark tools for the computer security domain.
+\end{list2}
+\end{position}
+
+\employer{{\bf Trident Training Facility}}
+\title{{\bf Instructor}}
+\dates{October 2011 \-- June 2014}
+\location{Bangor, WA}
+\begin{position}
+\vspace*{-.2cm}
+\begin{list2}
+	\item Qualified as Instructor, Instructor Evaluator and Course Supervisor. Served as Navigation Department Director, managing a department of 40 instructors and 11 labs. Awarded Navy and Marine Corps Commendation Medal with Gold Star.
+	\item Improved annual throughput in a ship piloting simulator by 18\% (75 sessions) by repairing over 30 script files and qualifying two new instructors. Created an additional 32 trainer sessions per month by guiding a comprehensive lab redesign. 
+	\item Delivered lectures for 120 submarine officers annually (66\% increase) and practical skills training for 23 ships, earning a ``highly effective'' rating by external auditors. 
+%	\item Cut exam grading and test item analysis time in half (8 hours/graduating class) by building an automated evaluation tool.
+\end{list2}
+\end{position}
+
+\employer{{\bf Amphibious Squadron Six}}
+\title{{\bf Department Head}}
+\dates{August 2009 \-- August 2011}
+\location{Little Creek, VA}
+\begin{position}
+\vspace*{-.2cm}
+\begin{list2}
+	\item Qualified as Staff Tactical Watch Officer (operations floor manager). Served as Administrative Department Head with 6 direct reports and oversight of 4 ships' administrative and human resources departments. Awarded Navy and Marine Corps Commendation Medal.
+%	\item Led a team responsible for 4 ships and embarked aviation, construction and medical assets. 
+	\item Authored contingency plans and coordinated with 8 partner nations to deliver over 100K pounds of humanitarian supplies following the 2010 Haitian earthquake. 
+%	\item Increased staff flexibility and capabilities by volunteering to attend 3 operational planning schools outside normal job responsibilities.
+%	\item Became a self-taught expert in military human resources programs in support of a major command staff, 2 flagships and 6 assigned subordinate ships. 
+%	\item Improved morale by correcting errors of 9 awards, 25 performance evaluations, and 5 pay and benefits actions within 6 months of arrival. 
+%	\item Enhanced deployment readiness and staff integration by revitalizing 2 neglected personnel programs.	
+\end{list2}
+\end{position}
+
+\employer{{\bf Headquarters, U.S. Forces Afghanistan}}
+\title{{\bf Operations Officer}}
+\dates{May 2010 \-- April 2011}
+\location{Kabul, Afghanistan}
+\begin{position}
+\vspace*{-.2cm}
+\begin{list2}
+	\item Guided ad-hoc, cross-functional teams of 6-8 in a position normally assigned to a more senior pay grade. Awarded Defense Meritorious Service Medal.
+%	\item Edited daily operations summaries for military and diplomatic leadership. Authored logistical, manpower and operational orders for the Commanding General. 
+	\item One of three officers selected from a theatre-level command to certify deployment readiness for 54 units and 6500+ personnel.
+	\item Expedited processing by 30\% (4 days) and enabled a 144\% increase (128 items) in annual traffic by improving tracking methods, reducing retention requirements and implementing SharePoint collaboration tools.
+	\item Responded to a major diplomatic cables leak by building a database for tracking compromised personnel that reduced outgoing traffic by 92\% (920 messages).	
+\end{list2}
+\end{position}
+
+\employer{{\bf USS Maine (SSBN-741)}}
+\title{{\bf Division Officer}}
+\dates{December 2006 \-- June 2009}
+\location{Bangor, WA}
+\begin{position}
+\vspace*{-.2cm}
+\begin{list2}
+	\item Qualified as Submarine Warfare Officer and Nuclear Engineering Officer. Awarded Navy and Marine Corps Achievement Medal.
+%	\item Produced near-term schedules for executive leadership and managed 2 divisions responsible for navigation and communication systems. 
+	\item Held responsibility as the Commanding Officer's direct representative for a \$2B submarine, \$100M nuclear reactor plant and \$50M-\$75M annual operating budgets. 
+%	\item Selected as the ship’s nuclear weapons courier out of a group of 10 officers for exceptional attention to detail. 
+%	\item Authored and validated 2 operational risk management plans for navigating in dense shipping areas. 
+%	\item Coordinated entry, maintenance and quality assurance retesting for all ballast control tanks and associated control systems ahead of schedule during a major maintenance refit. 
+	\item Guided operation, maintenance and testing of nuclear reactor instrumentation, control systems and protective features. Resolved a decade-long persistent fault in the S8G Nuclear Instrumentation and Pump Control systems. 
+%	\item Managed a division of 8 to complete all operator qualifications before required and inspired 4 to achieve additional advanced supervisory qualifications.
+\end{list2}
+\end{position}
+
+\employer{{\bf United States Naval Research Laboratory}}
+\title{{\bf Intern}}
+\dates{May 2004 \-- August 2004}
+\location{Washington, DC}
+\begin{position}
+\vspace*{-.2cm}
+\begin{list2}
+	\item Prototyped a Java Management Extension (JMX) for Mobile Ad Hoc Wireless Networks (MANETs) serving city-sized distributed sensor networks in real-time.
+\end{list2}
+\end{position}
+
+\end{resume}
+\end{document}

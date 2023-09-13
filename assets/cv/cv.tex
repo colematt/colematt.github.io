@@ -1,0 +1,152 @@
+% Adapted from \url{https://www.stat.berkeley.edu/~paciorek/computingTips/Latex_template_creating_CV_.html}
+
+\documentclass[margin,line]{res}
+%\usepackage[round]{natbib}	% bibliography package
+\usepackage{bibentry}       % full citation in the body of text
+\nobibliography* 			% no bib at the end
+\usepackage{hyperref}
+
+\oddsidemargin -.5in
+\evensidemargin -.5in
+\textwidth=6.0in
+\itemsep=0in
+\parsep=0in
+
+\include{lists}
+
+\begin{document}
+\name{Matthew R. Cole \vspace*{.1in}}
+
+\begin{resume}
+
+\section{\sc Contact Information}
+\vspace{.05in}
+\begin{tabular}{@{}p{3in}p{4in}}
+P.O. Box 6000                               & {\it Voice:}  (206) 790-8791\\
+Department of Computer Science              & {\it E-mail:} \href{mailto:mcole8@cs.binghamton.edu}{mcole8@cs.binghamton.edu}\\
+State University of New York at Binghamton  & {\it Web:} \url{https://colematt.github.io}\\
+Binghamton, NY 13902-6000                   &
+\end{tabular}
+
+\section{\sc Research Interests}
+Computer system security at the intersection of compiler design, program analysis, computer architecture, and reverse engineering.
+
+\section{\sc Education}
+{\bf State University of New York at Binghamton}, Binghamton, New York USA\\
+%{\em Department of Computer Science}
+\vspace*{-.1in}
+\begin{list1}
+\item[] Ph.D. Candidate, Computer Science
+\begin{list2}
+\vspace*{.05in}
+\item Dissertation Topic: ``Enforcing Integrity Models Through Hardware-Software Cohesive Systems''
+\item Advisor: Aravind Prakash
+\end{list2}
+\vspace*{.05in}
+\item[] M.S., Computer Science,  May 2018
+\begin{list2}
+\vspace*{.05in}
+\item Thesis Topic: ``Integrity Models''
+\end{list2}
+\end{list1}
+
+{\bf United States Naval Academy}, Annapolis, Maryland USA\\
+%{\em Department of Computer Science}
+\vspace*{-.1in}
+\begin{list2}
+\item[] B.S. Computer Science,  May, 2005
+\end{list2}
+
+\section{\sc Honors and Awards}
+
+United States Naval Academy: graduated \textit{With Merit}, Upsilon Pi Epsilon. Captained winning team of National Security Agency's Cyber Defense Exercise.
+
+%United States Navy: Defense Meritorious Service Medal, Navy \& Marine Corps Commendation with Gold Star, Navy \& Marine Corps Achievement Medal, Afghanistan Campaign Medal.
+
+\section{\sc Academic Experience}
+
+{\bf State University of New York at Binghamton}, Binghamton, New York USA
+
+\vspace{-0.3cm}
+{\em Lecturer} \hfill {\bf January 2022 \-- Present} \\
+Taught graduate and undergraduate courses for classes between 30 and 70 students.
+
+\begin{list2}
+\item CS 580U: Programming Systems and Tools, Fall 2022
+\item CS 458, CS 558: Introduction to Computer Security, Spring 2022
+\end{list2}
+
+\vspace{-0.1cm}
+{\em Research Assistant} \hfill {\bf January, 2018 - December 2021}\\
+Performed analyses using the LLVM compiler toolchain, providing defenses to eliminate attack surface area. Engineered an implementation of the RISC-V architecture employing inline code and data tagging for integrity models.
+
+\vspace{-.1cm}
+{\em Teaching Assistant} \hfill {\bf January, 2017 \-- Present}\\
+Co-taught graduate and undergraduate level courses. Authored and proctored weekly labs and graded all coursework. Delivered lectures during instructor-of-record's absence. Piloted a Github Classroom/Travis-CI course delivery system to provide instant feedback and version control software experience to students while expediting grading.
+
+\vspace*{.05in}
+\begin{list2}
+\item CS 458, CS 558: Introduction to Computer Security, Spring 2023
+\item CS 480, CS 580: Introduction to Computer Security, Spring 2017
+\item CS 220: Computer Systems II, Architecture and C Programming, Fall 2017
+\end{list2}
+
+\vspace{-.1cm}
+{\em Graduate Assistant} \hfill {\bf August, 2015 - January 2017}\\
+Explored widespread unscientific use of performance benchmarks within the computer security community. Repurposed Intel's MPX spatial memory safety architecture extension as secure storage for information hiding applications.
+
+\section{\sc Publications}
+
+%\bibentry{quach2017supplementing} \\
+%\bibentry{cole2022simplex} \\
+%\bibentry{gollapudi2023control} \\
+
+% \section{\sc Conference Presentations}
+
+%Paciorek, C.J. and R. Rosenfeld.  
+%Minimum classification error training in exponential language models.  
+%2000 Spring Transcription Workshop, College Park, Maryland.
+% \vspace*{-.25in}
+% \begin{verbatim}http://www.nist.gov/speech/publications/tw00/html/abstract.htm#cp1-50\end{verbatim}
+
+\section{\sc Professional Experience}
+
+{\bf United States Navy}, Bangor, Washington USA
+
+\vspace{-.3cm}
+{\em Department Director} \hfill {\bf May, 2005 - July, 2014}\\
+Held qualifications as 
+%Submarine Officer, Nuclear Engineering Officer, Joint Planning Officer, 
+Instructor, Instructor Evaluator and Course Supervisor. Oversaw a department of 40 instructors and 11 laboratories. Planned curricula for 3 courses and delivered lectures for over 120 trainees and 23 submarine crews annually. Rated ``highly effective'' by external auditors during entire tenure.
+
+{\bf United States Naval Research Laboratory}, Washington, District of Columbia USA
+
+\vspace{-.3cm}
+{\em Intern} \hfill {\bf May, 2004 - August, 2004}\\
+Prototyped Java Management Extensions (JMX) for Mobile Ad Hoc Wireless Networks (MANETs) serving large, distributed sensor networks in real-time.
+
+%\section{\sc Computing Skills}
+%\begin{list2}
+%\item Languages: C, C++, Python, Assembly (x86 and RISC-V), LLVM IR.
+%\item Operating Systems: Unix/Linux, MacOS.
+%\item Benchmark Frameworks: SPEC CPU 2006/2017, Hayai, Google Benchmark.
+%\item Test Frameworks: CUnit, Google Test, Boost Test, Python unittest.
+%\item Applications: LLVM Project, Git, Travis-CI, CMake, GNU Build System, \LaTeX.
+%\end{list2}
+
+\section{\sc Professional Service}
+\begin{list2}
+\item Binghamton University Graduate Student Organization Senate, 2016-2018.
+\item Binghamton University Graduate Student Organization Judicial Officer, 2018-2019.
+\item ACSAC Artifact Committee, 2017. \url{https://www.acsac.org/2017/committees/#artifact}
+\item ACSAC Artifact Committee, 2020. \url{https://www.acsac.org/2020/committees/artifact/}
+\item ACSAC Artifact Committee, 2021. \url{https://www.acsac.org/2021/committees/artifact/}
+\end{list2}
+
+\end{resume}
+
+\end{document}
+
+
+
+
