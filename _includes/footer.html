@@ -3,34 +3,34 @@
 
   <div class="wrapper">
 
-    <h2 class="footer-heading">{{ site.title | escape }}</h2>
-
     <div class="footer-col-wrapper">
-      <div class="footer-col footer-col-1">
+      <div class="footer-col">
+        <p class="feed-subscribe">
+          <a href="{{ site.feed.path | default: 'feed.xml' | absolute_url }}">
+            <svg class="svg-icon orange">
+              <use xlink:href="{{ 'assets/minima-social-icons.svg#rss' | relative_url }}"></use>
+            </svg><span>Subscribe</span>
+          </a>
+        </p>
+      {%- if site.author %}
         <ul class="contact-list">
-          <li class="p-name">
-            {%- if site.author -%}
-              {{ site.author.name | escape }}
-            {%- else -%}
-              {{ site.title | escape }}
-            {%- endif -%}
-            </li>
-            {%- if site.author.email -%}
-            <li><SCRIPT LANGUAGE="JavaScript">user = 'mcole8';site = 'binghamton.edu';document.write('<a href=\"mailto:' + user + '@' + site + '\">');document.write(user + '@' + site + '</a>');</SCRIPT></li>
-            {%- endif -%}
+          {% if site.author.name -%}
+            <li class="p-name">{{ site.author.name | escape }}</li>
+          {% endif -%}
+          {% if site.author.email -%}
+            <li><a class="u-email" href="mailto:{{ site.author.email }}">{{ site.author.email }}</a></li>
+          {%- endif %}
         </ul>
+      {%- endif %}
       </div>
-
-      <div class="footer-col footer-col-2">
-        {%- include social.html -%}
-      </div>
-
-      <div class="footer-col footer-col-3">
-        <p>{{- site.description | escape -}}</p>
+      <div class="footer-col">
+        <p>{{ site.description | escape }}</p>
       </div>
     </div>
 
-    Licensed under the <a href=../LICENSE>MIT License</a>, © 2023
+    <div class="social-links">
+      {%- include social.html -%}
+    </div>
 
   </div>
 
