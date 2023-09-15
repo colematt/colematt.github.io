@@ -1,4 +1,4 @@
-@inproceedings{10.1145/3134600.3134641,
+@inproceedings{quach2017supplementing,
   title       = {Supplementing Modern Software Defenses with Stack-Pointer Sanity},
   author      = {Quach, Anh and Cole, Matthew and Prakash, Aravind},
   year        = 2017,
@@ -14,7 +14,7 @@
   abstract    = {The perpetual cat-and-mouse game between attackers and software defenders has highlighted the need for strong and robust security. With performance as a key concern, most modern defenses focus on control-flow integrity (CFI), a program property that requires runtime execution of a program to adhere to a statically determined control-flow graph (CFG). Despite its success in preventing traditional return-oriented programming (ROP), CFI is known to be ineffective against modern attacks that adhere to a statically recovered CFG (e.g., COOP).This paper introduces stack-pointer integrity (SPI) as a means to supplement CFI and other modern defense techniques. Due to its ability to influence indirect control targets, stack pointer is a key artifact in attacks. We define SPI as a property comprising of two key sub-properties - Stack Localization and Stack Conservation - and implement a LLVM-based compiler prototype codenamed SPIglass that enforces SPI. We demonstrate a low implementation overhead and incremental deployability, two of the most desirable features for practical deployment. Our performance experiments show that the overhead of our defense is low in practice. We opensource SPIglass for the benefit of the community.},
   numpages    = 12
 }
-@inproceedings{10179416,
+@inproceedings{gollapudi2023control,
   title       = {Control Flow and Pointer Integrity Enforcement in a Secure Tagged Architecture},
   author      = {Gollapudi, Ravi Theja and Yuksek, Gokturk and Demicco, David and Cole, Matthew and Kothari, Gaurav and Kulkarni, Rohit and Zhang, Xin and Ghose, Kanad and Prakash, Aravind and Umrigar, Zerksis},
   year        = 2023,
@@ -37,7 +37,7 @@
   archiveprefix = {arXiv},
   primaryclass = {cs.CR}
 }
-@inproceedings{10056531,
+@inproceedings{demicco2022security,
   title       = {A Security Analysis of Labeling-Based Control-Flow Integrity Schemes},
   author      = {Demicco, David and Cole, Matthew and Wang, Shengdun and Prakash, Aravind},
   year        = 2022,
@@ -51,7 +51,7 @@
   abstract    = {Secure and transparent policy enforcement by a cloud provider is crucial in cloud infrastructures. Particularly, enforcement of control-flow integrity (CFI) policy has been widely accepted for stopping software-induced attacks. Using low-level hardware metadata to encode CFI policy is a fairly recent development. Besides moving enforcement out of the software and into the hardware for performance benefit, tagging metadata also offers other benefits in the precision of defenses. We evaluate several different metadata layouts for CFI policy enforcement, and examine the layouts' effects on the number of valid forward edges remaining in a RISC-V binary after policy enforcement. Additionally we look at related work in tag-based tools that provide CFI policy enforcement in order to get a sense of their performance and the design trade-offs they make. We evaluate our policy and the related works in terms of space and precision trade-offs for forward- and backward-edge CFI, finding that some trade-offs have a higher impact on the number of remaining forward edges, notably return address protection. Additionally, we report that existing backward edge protections can be highly effective, reducing the number of remaining backward edges in a protected binary to an average of 0.034% over an equivalent coarse-grained CFI.},
   keywords    = {}
 }
-@inproceedings{10.1007/978-3-031-22295-5_12,
+@inproceedings{cole2022simplex,
   title       = {Simplex: Repurposing Intel Memory Protection Extensions for Secure Storage},
   author      = {Cole, Matthew and Prakash, Aravind},
   year        = 2022,
