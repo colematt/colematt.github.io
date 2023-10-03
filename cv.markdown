@@ -5,5 +5,6 @@ permalink: /cv/
 ---
 
 - Cover Letter
-- Academic Curriculum Vitae
-- Professional Resume
+- [Resume](/assets/cv/resume.pdf)
+- [Academic Curriculum Vitae](/assets/cv/cv.pdf)
+- Job Talk
