@@ -275,7 +275,7 @@
 % unless you really understand all of this but it is not
 % hard.  Either way, it can only be executed once
 %
-\def\sectionfont{\large\bf}
+\def\sectionfont{\large\sc}
 \newdimen\sectionwidth
 \newskip\sectionskip
 \newdimen\resumewidth
