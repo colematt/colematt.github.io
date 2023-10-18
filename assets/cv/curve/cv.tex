@@ -1,0 +1,83 @@
+\documentclass[letterpaper,11pt,english]{curve}
+
+% Most commands and style definitions are in curve-settings.sty.
+\usepackage{curve-settings}
+
+% Pass other options to biblatex you can change them here. 
+\usepackage{biblatex}
+\PassOptionsToPackage{style=ieee,sorting=ydnt,uniquename=init,defernumbers=true}{biblatex}
+\addbibresource{publications.bib}
+
+%% Specify your last name(s) and first name(s) (as given in the .bib) to automatically bold your own name in the publications list. 
+%% One caveat: You need to write \bibnamedelima where there's a space in your name for this to work properly; or write \bibnamedelimi if you use initials in the .bib
+\mynames{Cole/Matthew,
+    Cole/M.}
+
+% If you need to further customise your biblatex setup e.g. with \DeclareFieldFormat etc please add them here AFTER loading settings.sty. For example, to remove the default "[Online] Available:" prefix before URLs when using the IEEE style:
+\DefineBibliographyStrings{english}{url={\textsc{url}}}
+
+% Change the fonts if you want
+%\ifxetexorluatex % If you're using XeLaTeX or LuaLaTeX
+%  \usepackage{fontspec} 
+%  %% You can use \setmainfont etc; I'm just using these font packages here because they provide OpenType fonts for use by XeLaTeX/LuaLaTeX anyway
+%  \usepackage[p,osf,swashQ]{cochineal}
+%  \usepackage[medium,bold]{cabin}
+%  \usepackage[varqu,varl,scale=0.9]{zi4}
+%\else % If you're using pdfLaTeX or latex
+%  \usepackage[T1]{fontenc}
+%  \usepackage[p,osf,swashQ]{cochineal}
+%  \usepackage{cabin}
+%  \usepackage[varqu,varl,scale=0.9]{zi4}
+%\fi
+
+% Change the page margins if you want
+% \geometry{left=1cm,right=1cm,top=1.5cm,bottom=1.5cm}
+
+% Change the colours if you want
+% \definecolor{SwishLineColour}{HTML}{00FFFF}
+% \definecolor{MarkerColour}{HTML}{0000CC}
+
+% Change the item prefix marker if you want
+% \prefixmarker{$\diamond$}
+
+%% Photo is only shown if "fullonly" is included
+%\includecomment{fullonly}
+%\excludecomment{fullonly}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\leftheader{%
+  {\LARGE\bfseries Matthew Cole} \\
+  \makefield{\faEnvelope[regular]}{\href{mailto:mcole8@binghamton.edu}{\texttt{mcole8@binghamton.edu}}} \\
+  \makefield{\faMobile}{\href{tel:12067908791}{+1 (206) 790-8791}} \\
+  \makefield{ORCID~}{\href{https://orcid.org/0000-0003-1743-1504}{0000-0003-1743-1504}}
+  }
+
+\rightheader{%
+  \makefield{\faGithub}{\href{https://github.com/colematt}{colematt}}
+  \makefield{\faGlobe}{\href{https://colematt.github.com/}{colematt.github.io}}
+  \makefield{\faLinkedin}{\href{https://www.linkedin.com/in/matthewcole4/}{matthewcole4}}
+  \makefield{\faGraduationCap}{\href{https://scholar.google.com/citations?user=GfQ-ozgAAAAJ}{scholar.google.com}}
+}
+
+%\begin{fullonly}
+%\photo[r]{photo}
+%\photoscale{0.13}
+%\end{fullonly}
+
+\title{Curriculum Vitae}
+
+\begin{document}
+\makeheaders[c]
+
+\makerubric{employment}
+\makerubric{education}
+\makerubric{skills}
+\makerubric{misc}
+%\makerubric{references}
+%\makerubric{references-full}
+\input{publications}
+
+\end{document}

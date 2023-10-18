@@ -1,0 +1,18 @@
+%!TEX encoding = UTF8
+%!TEX root =cv.tex
+
+% Bibtex bibliographies don't work with CurVe \entry[] command
+\makerubrichead{Publications}
+
+% Note: \addbibresource{publications.bib} in the main doc. 
+\nocite{*}
+\bibliographystyle{plain}
+\bibliography{publications}
+
+%% If you just want everything in one list
+\printbibliography[heading={none}]
+
+%% If you want multiple lists by publication type
+% \printbibliography[heading={subbibliography},title={Journal Articles},type=article]
+% \printbibliography[heading={subbibliography},title={Conference Proceedings},type=inproceedings]
+% \printbibliography[heading={subbibliography},title={Books and Chapters},filter={booksandchapters}]
