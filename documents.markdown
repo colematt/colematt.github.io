@@ -1,7 +1,7 @@
 ---
 layout: page
-title: CV
-permalink: /cv/
+title: Documents
+permalink: /documents/
 ---
 
 - Cover Letter
