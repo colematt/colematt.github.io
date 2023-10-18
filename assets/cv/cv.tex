@@ -1,0 +1,47 @@
+\documentclass[letterpaper]{curve}
+
+\usepackage[letterpaper,nohead,nofoot,hmargin=1in,vmargin=0.5in]{geometry}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{graphicx}
+\usepackage[hyphens]{url}
+\usepackage[colorlinks,allcolors=blue]{hyperref}
+\usepackage{fontawesome}
+% Default biblatex style used for the publication list is APA6. If you wish to use a different style or pass other options to biblatex you can change them here.
+\usepackage{biblatex} 
+\PassOptionsToPackage{style=plain,sorting=ydnt,uniquename=init,defernumbers=true}{biblatex}
+\addbibresource{publications.bib}
+
+\leftheader{%
+{\LARGE\bfseries Matthew Cole} \\
+{\faEnvelope~\href{mailto:mcole8@binghamton.edu}{mcole8@binghamton.edu}} \\
+{\faMobile~\href{tel:12067908791}{+1 (206) 790-8791}} \\
+{\faUniversity~Department of Computer Science \\
+Thomas J. Watson College of Engineering and Applied Science \\
+4400 Vestal Parkway East \\
+Binghamton, NY 13902-6000}
+}
+\rightheader{~}
+\photoscale{0.0}
+\headerscale{1.0}
+
+\title{Curriculum Vitae}
+\titlefont{\bfseries\LARGE}
+\titlealignment{c}
+
+% \flavor{academic}
+% \flavor{industry}
+
+\begin{document}
+\makeheaders[t]
+\maketitle
+
+\makerubric{education}
+%\input{publications}
+\makerubric{experience}
+\makerubric{interests}
+\makerubric{skills}
+\makerubric{service}
+\makerubric{misc}
+
+\end{document}
