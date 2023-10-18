@@ -5,12 +5,13 @@
 \usepackage[T1]{fontenc}
 \usepackage{graphicx}
 \usepackage[hyphens]{url}
-\usepackage[colorlinks,allcolors=blue]{hyperref}
 \usepackage{fontawesome}
 % Default biblatex style used for the publication list is APA6. If you wish to use a different style or pass other options to biblatex you can change them here.
-\usepackage{biblatex} 
-\PassOptionsToPackage{style=plain,sorting=ydnt,uniquename=init,defernumbers=true}{biblatex}
-\addbibresource{publications.bib}
+% \usepackage[backend=biber,style=authoryear,sorting=ydnt,
+% 	natbib=true,maxbibnames=99,uniquename=false]{biblatex}
+% \addbibresource{publications.bib}
+% Must usepackage{hyperref} after usepackage{biblatex}
+\usepackage[colorlinks,allcolors=blue]{hyperref}
 
 \leftheader{%
 {\LARGE\bfseries Matthew Cole} \\
@@ -37,7 +38,7 @@ Binghamton, NY 13902-6000}
 \maketitle
 
 \makerubric{education}
-%\input{publications}
+% \makerubric{publications}
 \makerubric{experience}
 \makerubric{interests}
 \makerubric{skills}
