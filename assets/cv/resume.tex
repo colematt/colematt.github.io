@@ -1,6 +1,6 @@
 \documentclass[letterpaper,skipsamekey]{curve}
 
-\usepackage[letterpaper,nohead,nofoot,hmargin=1in,vmargin=0.5in,includehead,includefoot]{geometry}
+\usepackage[letterpaper,nohead,nofoot,hmargin=1in,vmargin=0.5in]{geometry}
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
 \usepackage{graphicx}
@@ -12,18 +12,6 @@
 % \addbibresource{publications.bib}
 % Must usepackage{hyperref} after usepackage{biblatex}
 \usepackage[colorlinks,allcolors=blue]{hyperref}
-
-% \usepackage{fancyhdr}
-% \pagestyle{fancy}
-% \fancyhf{}
-% \fancyhead[L]{}
-% \fancyhead[C]{Matthew Cole \--- Curriculum Vitae}
-% \fancyhead[R]{}
-% \renewcommand{\headrulewidth}{0.4pt}
-% \fancyfoot[L]{}
-% \fancyfoot[C]{\thepage}
-% \fancyfoot[R]{}
-% \renewcommand{\footrulewidth}{0.4pt}
 
 \leftheader{%
 {\LARGE\bfseries Matthew Cole} \\
@@ -38,34 +26,20 @@ Binghamton, NY 13902-6000}
 \photoscale{0.0}
 \headerscale{1.0}
 
-\makeatletter
-\renewcommand{\@evenhead}{\hfill{}Matthew Cole \--- Curriculum Vitae\hfill}
-\renewcommand{\@oddhead}{\hfill{}Matthew Cole \--- Curriculum Vitae\hfill}
-\renewcommand{\@evenfoot}{\hfill\thepage\hfill}
-\renewcommand{\@oddfoot}{\hfill\thepage\hfill}
-\setlength{\topskip}{20pt}
-\setlength{\footskip}{20pt}
-\makeatother
-
-\title{Curriculum Vitae}
-\titlefont{\LARGE\bfseries}
+\title{Resume}
+\titlefont{\bfseries\Large}
 \titlealignment{c}
 
-\rubricfont{\Large\bfseries}
+\rubricfont{\bfseries\large}
 \rubricalignment{l}
 
-\subrubricfont{\large\itshape}
-\subrubricalignment{l}
-
-\flavor{academic}
+\flavor{industry}
 
 \prefix{}
 
 \begin{document}
-\thispagestyle{empty}
 \makeheaders[t]
 \maketitle
-
 
 \makerubric{education}
 % \makerubric{publications}
