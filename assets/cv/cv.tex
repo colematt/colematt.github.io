@@ -5,31 +5,28 @@
 \usepackage[T1]{fontenc}
 \usepackage{graphicx}
 \usepackage[hyphens]{url}
-\usepackage{cvlists}
-\usepackage{fontawesome}
-% Default biblatex style used for the publication list is APA6. If you wish to use a different style or pass other options to biblatex you can change them here.
-% \usepackage[backend=biber,style=authoryear,sorting=ydnt,
-% 	natbib=true,maxbibnames=99,uniquename=false]{biblatex}
-% \addbibresource{publications.bib}
-% Must usepackage{hyperref} after usepackage{biblatex}
-\usepackage[colorlinks,allcolors=blue]{hyperref}
+\usepackage[english]{babel}
+ \addto{\captionsenglish}{\renewcommand{\bibname}{Publications}}
+\usepackage[fixed]{fontawesome5}
+\RequirePackage[dvipsnames,svgnames]{xcolor}
+\usepackage{csquotes}
 
-% \usepackage{fancyhdr}
-% \pagestyle{fancy}
-% \fancyhf{}
-% \fancyhead[L]{}
-% \fancyhead[C]{Matthew Cole \--- Curriculum Vitae}
-% \fancyhead[R]{}
-% \renewcommand{\headrulewidth}{0.4pt}
-% \fancyfoot[L]{}
-% \fancyfoot[C]{\thepage}
-% \fancyfoot[R]{}
-% \renewcommand{\footrulewidth}{0.4pt}
+% Default biblatex style used for the publication list is APA6. If you wish to use a different style or pass other options to biblatex you can change them here. 
+%\PassOptionsToPackage{backend=biber,style=ieee,sorting=ydnt,uniquename=init,defernumbers=true}{biblatex}
+
+% Most commands and style definitions are in settings.sty.
+\usepackage{cvsettings}
+
+% If you need to further customise your biblatex setup e.g. with \DeclareFieldFormat etc please add them here AFTER loading settings.sty. For example, to remove the default "[Online] Available:" prefix before URLs when using the IEEE style:
+%\DefineBibliographyStrings{english}{url={\textsc{url}}}
+
+% Only needed if you want a Publication List
+%\addbibresource{publications.bib}
 
 \leftheader{%
 {\LARGE\bfseries Matthew Cole} \\
 {\faEnvelope~\href{mailto:mcole8@binghamton.edu}{mcole8@binghamton.edu}} \\
-{\faMobile~\href{tel:12067908791}{+1 (206) 790-8791}} \\
+{\faPhone*~\href{tel:12067908791}{+1 (206) 790-8791}} \\
 {\faUniversity~Department of Computer Science \\
 Thomas J. Watson College of Engineering and Applied Science \\
 4400 Vestal Parkway East \\
@@ -69,7 +66,8 @@ Binghamton, NY 13902-6000}
 
 
 \makerubric{education}
-% \makerubric{publications}
+% Sometimes when a section can't be nicely modelled with the \entry[]... mechanism; hack our own and use \input not \makerubric
+\input{publications}
 \makerubric{experience}
 \makerubric{service}
 \makerubric{skills}
