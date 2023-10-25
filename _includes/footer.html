@@ -12,9 +12,7 @@
             </svg><span>Subscribe</span>
           </a>
         </p>
-      </div>
-      <div class="footer-col">
-        {%- if site.author %}
+      {%- if site.author %}
         <ul class="contact-list">
           {% if site.author.name -%}
             <li class="p-name">{{ site.author.name | escape }}</li>
@@ -24,9 +22,9 @@
           {%- endif %}
         </ul>
       {%- endif %}
-        <p>© 2017-2024, licensed under the <a href="/LICENSE">MIT License</a>
-          <br>Last modified: {% last_modified_at %}
-        </p>
+      </div>
+      <div class="footer-col">
+        <p>{{ site.description | escape }}</p>
       </div>
     </div>
 
