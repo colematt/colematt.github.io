@@ -1,51 +1,56 @@
-\documentclass[letterpaper,skipsamekey]{curve}
+\documentclass[10pt,letterpaper,skipsamekey]{curve}
 
 \usepackage[letterpaper,nohead,nofoot,hmargin=1in,vmargin=0.5in]{geometry}
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
 \usepackage{graphicx}
 \usepackage[hyphens]{url}
-\usepackage{fontawesome}
-% Default biblatex style used for the publication list is APA6. If you wish to use a different style or pass other options to biblatex you can change them here.
-% \usepackage[backend=biber,style=authoryear,sorting=ydnt,
-% 	natbib=true,maxbibnames=99,uniquename=false]{biblatex}
-% \addbibresource{publications.bib}
-% Must usepackage{hyperref} after usepackage{biblatex}
-\usepackage[colorlinks,allcolors=blue]{hyperref}
+\usepackage[fixed]{fontawesome5}
+\usepackage{cvsettings}
 
 \leftheader{%
-{\LARGE\bfseries Matthew Cole} \\
-{\faEnvelope~\href{mailto:mcole8@binghamton.edu}{mcole8@binghamton.edu}} \\
-{\faMobile~\href{tel:12067908791}{+1 (206) 790-8791}} \\
-{\faUniversity~Department of Computer Science \\
-Thomas J. Watson College of Engineering and Applied Science \\
-4400 Vestal Parkway East \\
-Binghamton, NY 13902-6000}
+\centering
+{\Large\bfseries Matthew Cole}
+\par \faEnvelope~\href{mailto:mcole8@binghamton.edu}{mcole8@binghamton.edu} | %
+	 \faPhone~\href{tel:12067908791}{(206) 790-8791} | %
+	  \faGithub~\href{https://github.com/colematt}{colematt} | %
+	  \faLinkedin~\href{https://www.linkedin.com/in/matthewcole4/}{matthewcole4}
 }
 \rightheader{~}
 \photoscale{0.0}
 \headerscale{1.0}
 
+\makeatletter
+\renewcommand{\@evenhead}{\hfill{}Matthew Cole \--- Resume\hfill}
+\renewcommand{\@oddhead}{\hfill{}Matthew Cole \--- Resume\hfill}
+\renewcommand{\@evenfoot}{\hfill\thepage\hfill}
+\renewcommand{\@oddfoot}{\hfill\thepage\hfill}
+\setlength{\topskip}{25pt}
+\setlength{\footskip}{25pt}
+\makeatother
+
 \title{Resume}
 \titlefont{\bfseries\Large}
 \titlealignment{c}
 
-\rubricfont{\bfseries\large}
+\rubricfont{\large\bfseries}
 \rubricalignment{l}
+\subrubricfont{\normalsize\bfseries}
+\subrubricalignment{l}
+
 
 \flavor{industry}
 
 \prefix{}
 
 \begin{document}
+\thispagestyle{empty}
 \makeheaders[t]
-\maketitle
+\hrulefill
 
+%\makerubric{summary}
 \makerubric{education}
-% \makerubric{publications}
 \makerubric{experience}
-\makerubric{service}
-\makerubric{skills}
 \makerubric{misc}
 
 \end{document}
