@@ -4,7 +4,7 @@ title: Documents
 permalink: /documents/
 ---
 
+- [Resume](/assets/docs/resume.pdf)
+- [Academic Curriculum Vitae](/assets/docs/cv.pdf)
 - Cover Letter
-- [Resume](/assets/cv/resume.pdf)
-- [Academic Curriculum Vitae](/assets/cv/cv.pdf)
 - Job Talk
