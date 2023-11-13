@@ -9,6 +9,12 @@
 \usepackage{pifont}
 
 % Compact list environments
+\newenvironment{list0}{
+  \begin{list}{\ding{32}}{%
+      \setlength{\itemsep}{0in}
+      \setlength{\parsep}{0in} \setlength{\parskip}{0in}
+      \setlength{\topsep}{0in} \setlength{\partopsep}{0in}
+      \setlength{\leftmargin}{0in}}}{\end{list}}
 \newenvironment{list1}{
   \begin{list}{\ding{226}}{%
       \setlength{\itemsep}{0in}
