@@ -6,10 +6,10 @@ permalink: /about/
 
 # About Me
 
-I'm a PhD candidate at the [State University of New York, Binghamton University](https://www.binghamton.edu/computer-science/index.html).
-[Aravind Prakash](https://sites.google.com/a/binghamton.edu/aravind/) is my advisor and principal investigator with [Kanad Ghose](http://www.cs.binghamton.edu/~ghose/).
+I'm a computer scientist at [Johns Hopkins University Applied Physics Laboratory](https://www.jhuapl.edu) working on [cyber-resilient platforms and infrastructure](https://www.jhuapl.edu/work/mission-areas/cyber-operations)
 
 I've previously done research at:
+- [State University of New York, Binghamton University](https://www.binghamton.edu/computer-science/index.html)
 - [United States Naval Academy, Department of Computer Science](https://www.usna.edu/CS/)
 - [United States Naval Research Laboratory, Network and Communications Systems Branch](https://www.nrl.navy.mil/itd/ncs/)
 
@@ -21,6 +21,7 @@ Hardware-software cohesive design for resilient system security through:
 - Program analysis
 - Tagged architectures
 - Reverse engineering
+- Formal methods
 
 # Personal
 
